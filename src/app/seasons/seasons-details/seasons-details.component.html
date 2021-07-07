@@ -1,0 +1,9 @@
+<ul>
+    <li><strong>Number: </strong>{{season.number}}</li>
+    <li><strong>Created at: </strong>{{season.created_at }} => {{ season.created_at | date:"dd/MM/yyyy" }}</li>
+    <li><strong>Updated at: </strong>{{season.updated_at }} => {{season.updated_at | date:"dd/MM/yyyy" }}</li>
+    <li><strong>Published at: </strong>{{season.published_at }} => {{season.published_at | date:"dd/MM/yyyy" }}</li>
+</ul>
+<h5>{{season.characters[0] | json }}</h5>
+
+<!-- <img [src]="'http://82.165.96.74:1337' + character.picture.url" [alt]="character.name" style="width: 200px; border: 1px solid #ddd; border-radius: 4px; padding: 5px;"> -->

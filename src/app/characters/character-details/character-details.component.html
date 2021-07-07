@@ -1,0 +1,12 @@
+<h3>{{character.name}}</h3>
+<h3>{{character.name | lowercase }}</h3>
+<h3>{{character.name | uppercase }}</h3>
+<h3>{{character.name | uppercase | titlecase }}</h3>
+
+<ul>
+    <li><strong>Nbr season: </strong>{{character.nbrSeason}}</li>
+    <li><strong>Created at: </strong>{{character.created_at }} ☞ {{ character.created_at | date:"dd/MM/yyyy" }}</li>
+    <li><strong>Updated at: </strong>{{character.updated_at }} ☞ {{character.updated_at | date:"dd/MM/yyyy" }}</li>
+    <li><strong>Published at: </strong>{{character.published_at }} ☞ {{character.published_at | date:"dd/MM/yyyy" }}</li>
+</ul>
+<img [src]="'http://82.165.96.74:1337' + character.picture.url" [alt]="character.name" style="width: 200px; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
