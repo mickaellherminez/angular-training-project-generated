@@ -35,10 +35,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [Augular Common](https://angular.io/api/common)
 - [Augular Common NgForOf](https://angular.io/api/common/NgForOf)
 - [Augular Common NgIf)](https://angular.io/api/common/NgIf)
-- [Augular Http](ttps://angular.io/guide/http)
+- [Augular Http](https://angular.io/guide/http)
+- [Update Angular](https://update.angular.io/)
+### Angular Material
 - [Angular Material](https://material.angular.io/)
 - [Angular Material Grid List](https://material.angular.io/components/grid-list/overview)
-
 ---
 ## Animation libraries
 - [AnimeJs](https://animejs.com/)
